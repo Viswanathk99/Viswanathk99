@@ -1,55 +1,37 @@
-# Viswanath K
+<div align="center">
 
-I'm a software engineer who likes hard problems.
+## Viswanath K
+**Software Engineer**
 
-I care about building systems that actually work under pressure  not just writing code that compiles, but code that scales, recovers gracefully, and doesn't wake anyone up at 3am. I get the most energy from debugging something nobody else can figure out, or rethinking an architecture that's about to hit its ceiling.
+I build backend systems, design scalable architectures, and solve complex engineering problems end to end. I enjoy digging into performance bottlenecks, wiring together payment and logistics workflows, and writing code that holds up in production under real-world conditions.
 
-Right now I'm building backend infrastructure for **SITHA**, a gig-economy marketplace serving thousands of users on Android and iOS. I've taken systems from "it works on my machine" to production on AWS, migrated ORMs to raw SQL when the abstraction became the bottleneck, and wired together payments, logistics, and messaging into workflows that handle real money and real deadlines.
-
----
-
-### How I think about engineering
-
-**Start from the problem, not the tool.** I pick the technology that fits the constraint  not the one I used last time.
-
-**Measure before you optimize.** I migrated TypeORM to raw SQL at SITHA not because ORMs are bad, but because query profiling showed they were the bottleneck. The fix was specific, not ideological.
-
-**Own the whole stack.** I don't throw code over the wall. I deploy it, monitor it, and fix it when it breaks. My work spans from database schema design to AWS infrastructure to the alerts that tell me something's wrong.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/viswanath-k-413031202)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:viswanathk333@gmail.com)
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/viswanath_k1304)
 
 ---
 
-### What I work with
+### Tech Stack
 
-**Languages** — TypeScript, JavaScript, Java, Python  
-**Backend** — NestJS, Express.js, Spring Boot, FastAPI  
-**Databases** — MySQL, PostgreSQL, MariaDB (Aurora), MongoDB, Redis  
-**Cloud** — AWS (ECS, Fargate, CloudWatch), Docker, HashiCorp Vault  
-**Integrations** — Razorpay, Shiprocket, WhatsApp Business API
+<a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" height="40" alt="TypeScript" /></a>&nbsp;
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" height="40" alt="JavaScript" /></a>&nbsp;
+<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" height="40" alt="Java" /></a>&nbsp;
+<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" height="40" alt="Python" /></a>&nbsp;
+<a href="https://nestjs.com/"><img src="https://skillicons.dev/icons?i=nestjs" height="40" alt="NestJS" /></a>&nbsp;
+<a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="Node.js" /></a>&nbsp;
+<a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="40" alt="Express" /></a>&nbsp;
+<a href="https://spring.io/projects/spring-boot"><img src="https://skillicons.dev/icons?i=spring" height="40" alt="Spring Boot" /></a>&nbsp;
+<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" /></a>&nbsp;
+<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="40" alt="React" /></a>&nbsp;
+<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="40" alt="MySQL" /></a>&nbsp;
+<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" height="40" alt="PostgreSQL" /></a>&nbsp;
+<a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="MongoDB" /></a>&nbsp;
+<a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" height="40" alt="Redis" /></a>&nbsp;
+<a href="https://aws.amazon.com/"><img src="https://skillicons.dev/icons?i=aws" height="40" alt="AWS" /></a>&nbsp;
+<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker" /></a>&nbsp;
+<a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" height="40" alt="Linux" /></a>&nbsp;
+<a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="40" alt="Postman" /></a>&nbsp;
+<a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" height="40" alt="TensorFlow" /></a>&nbsp;
+<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="40" alt="VS Code" /></a>
 
----
-
-### Problems I've solved
-
-**Performance bottleneck at scale** — Core data access at SITHA was choking under load. Profiled the ORM-generated queries, identified the worst offenders, and migrated critical paths to optimized raw SQL. Response times dropped significantly.
-
-**End-to-end payment infrastructure** — Integrated Razorpay gateway and IDFC Bank payout workflows from scratch. Sellers transact, settlements happen automatically, edge cases (failed payouts, partial refunds) are handled — not ignored.
-
-**Logistics with real SLAs** — Built Shiprocket integration with deadline-aware booking workflows. Orders don't just ship — they ship on time, with tracking, and the system knows when something's late before the customer does.
-
-**Detecting fake media** — Built a CNN + ResNet pipeline in TensorFlow that classifies manipulated audio, video, and images in real time. The interesting part wasn't the model — it was making inference fast enough to be useful.
-
-**ML-powered recommendations** — Built a scikit-learn pipeline analyzing purchase behavior, served predictions through FastAPI, and built a React dashboard to close the feedback loop on recommendation quality.
-
----
-
-### What I'm working toward
-
-I want to be the engineer you call when the system is on fire, and also the one who architects it so it doesn't catch fire in the first place. I'm deepening my understanding of distributed systems, system design, and performance engineering  not to collect certifications, but to solve bigger problems.
-
----
-
-### Let's talk
-
-If you're building something technically interesting, I'd like to hear about it.
-
-[LinkedIn](https://linkedin.com/in/viswanath-k-413031202) · [Email](mailto:viswanathk333@gmail.com)
+</div>
