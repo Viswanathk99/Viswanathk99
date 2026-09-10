@@ -1,11 +1,10 @@
-## Viswanath K
+## VISWANATH K
 **Software Engineer**
 
 I build backend systems, design scalable architectures, and solve complex engineering problems end to end. I enjoy digging into performance bottlenecks, wiring together payment and logistics workflows, and writing code that holds up in production under real-world conditions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/viswanath-k-413031202)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:viswanathk333@gmail.com)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/viswanath_k1304)
 
 ---
 
